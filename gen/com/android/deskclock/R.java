@@ -383,16 +383,17 @@ public final class R {
         public static final int weather_fetch_failure=0x7f080039;
     }
     public static final class style {
+        public static final int ButtonBG=0x7f0a0004;
         public static final int ButtonStripLeft=0x7f0a0003;
-        public static final int ButtonStripMiddle=0x7f0a0004;
-        public static final int ButtonStripRight=0x7f0a0005;
-        public static final int NoStrippers=0x7f0a0006;
+        public static final int ButtonStripMiddle=0x7f0a0005;
+        public static final int ButtonStripRight=0x7f0a0006;
+        public static final int NoStrippers=0x7f0a0007;
         public static final int RoundTouchButton=0x7f0a0002;
         /**  This theme is similar to the Theme.Dialog.Alert but does not rely on a
          non-public resource. 
          */
         public static final int alarm_alert=0x7f0a0001;
-        public static final int alarm_list_left_column=0x7f0a0007;
+        public static final int alarm_list_left_column=0x7f0a0008;
         public static final int clock=0x7f0a0000;
     }
     public static final class xml {
