@@ -21,6 +21,7 @@
      -->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="@drawable/alarm_bg_03"
     android:layout_height="match_parent"
     >
     <!-- the top padding accounts for the status bar area -->
@@ -112,7 +113,7 @@
     <View android:id="@+id/window_tint"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#CC000000"
+        android:background="#00000000"
         android:visibility="visible"
         android:clickable="false"
         />
