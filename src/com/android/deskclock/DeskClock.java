@@ -742,13 +742,10 @@ public class DeskClock extends Activity {
             }
         });
 
-        final Button homeButton = (Button) findViewById(R.id.home_button);
-        homeButton.setOnClickListener(new View.OnClickListener() {
+        final Button stopwatchButton = (Button) findViewById(R.id.stopwatch_button);
+        stopwatchButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(
-                    new Intent(Intent.ACTION_MAIN)
-                        .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TOP)
-                        .addCategory(Intent.CATEGORY_HOME));
+            	startActivity(new Intent(DeskClock.this, StopwatchActivity.class));
             }
         });
 

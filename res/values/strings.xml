@@ -254,6 +254,12 @@
 
     <string name="alarm_klaxon_service_desc">Sound playback service for alarms set in DeskClock.</string>
 
+    <!-- Stopwatch label -->
+    <string name="stopwatch_activity">Stopwatch</string>
+    <string name="stopwatch_pause">Pause</string>
+    <string name="stopwatch_start">Start</string>
+    <string name="stopwatch_lap">Lap</string>
+    <string name="stopwatch_reset">Reset</string>	
 </resources>
 
 

@@ -80,8 +80,8 @@ public final class R {
         public static final int ic_clock_strip_alarm=0x7f020021;
         public static final int ic_clock_strip_desk_clock=0x7f020022;
         public static final int ic_clock_strip_gallery=0x7f020023;
-        public static final int ic_clock_strip_home=0x7f020024;
-        public static final int ic_clock_strip_music=0x7f020025;
+        public static final int ic_clock_strip_music=0x7f020024;
+        public static final int ic_clock_strip_stopwatch=0x7f020025;
         public static final int ic_dialog_time=0x7f020026;
         public static final int ic_indicator_off=0x7f020027;
         public static final int ic_indicator_on=0x7f020028;
@@ -118,33 +118,42 @@ public final class R {
         public static final int bar_onoff=0x7f0c000e;
         public static final int base_layout=0x7f0c0005;
         public static final int battery=0x7f0c0017;
+        public static final int clear=0x7f0c002d;
         public static final int clock_onoff=0x7f0c000d;
         public static final int date=0x7f0c001e;
         public static final int daysOfWeek=0x7f0c000b;
-        public static final int delete_alarm=0x7f0c002e;
+        public static final int delete_alarm=0x7f0c0037;
         public static final int desk_clock=0x7f0c0012;
         public static final int digitalClock=0x7f0c0008;
         public static final int dismiss=0x7f0c0004;
-        public static final int edit_alarm=0x7f0c002d;
-        public static final int enable_alarm=0x7f0c002c;
-        public static final int gallery_button=0x7f0c0018;
+        public static final int edit_alarm=0x7f0c0036;
+        public static final int enable_alarm=0x7f0c0035;
+        public static final int gallery_button=0x7f0c001a;
         public static final int header_label=0x7f0c0011;
         public static final int header_time=0x7f0c0010;
-        public static final int home_button=0x7f0c001a;
         public static final int indicator=0x7f0c000c;
         public static final int label=0x7f0c000a;
+        public static final int line1=0x7f0c0030;
+        public static final int line2=0x7f0c0031;
         public static final int linlinlayoutbtch=0x7f0c0009;
-        public static final int menu_item_add_alarm=0x7f0c002a;
-        public static final int menu_item_alarms=0x7f0c002f;
-        public static final int menu_item_desk_clock=0x7f0c0029;
-        public static final int menu_item_dock_settings=0x7f0c0030;
-        public static final int menu_item_settings=0x7f0c002b;
+        public static final int list=0x7f0c002b;
+        public static final int menu_item_add_alarm=0x7f0c0033;
+        public static final int menu_item_alarms=0x7f0c0038;
+        public static final int menu_item_desk_clock=0x7f0c0032;
+        public static final int menu_item_dock_settings=0x7f0c0039;
+        public static final int menu_item_settings=0x7f0c0034;
         public static final int music_button=0x7f0c0019;
         public static final int nextAlarm=0x7f0c0013;
         public static final int nightmode_button=0x7f0c0014;
+        public static final int number=0x7f0c002e;
         public static final int saver_view=0x7f0c001b;
         public static final int snooze=0x7f0c0003;
+        public static final int start=0x7f0c002c;
+        public static final int stopwatch_button=0x7f0c0018;
+        public static final int text=0x7f0c002f;
         public static final int time=0x7f0c001d;
+        public static final int time1=0x7f0c0029;
+        public static final int time2=0x7f0c002a;
         public static final int timeDisplay=0x7f0c0001;
         public static final int time_date=0x7f0c001c;
         public static final int weather=0x7f0c001f;
@@ -169,7 +178,9 @@ public final class R {
         public static final int desk_clock_time_date=0x7f030009;
         public static final int desk_clock_weather=0x7f03000a;
         public static final int set_alarm=0x7f03000b;
-        public static final int text2=0x7f03000c;
+        public static final int stopwatch=0x7f03000c;
+        public static final int stopwatch_adapter=0x7f03000d;
+        public static final int text2=0x7f03000e;
     }
     public static final class menu {
         public static final int alarm_list_menu=0x7f0b0000;
@@ -364,6 +375,13 @@ public final class R {
         /**  Setting title for changing the snooze duration. 
          */
         public static final int snooze_duration_title=0x7f080025;
+        /**  Stopwatch label 
+         */
+        public static final int stopwatch_activity=0x7f08003c;
+        public static final int stopwatch_lap=0x7f08003f;
+        public static final int stopwatch_pause=0x7f08003d;
+        public static final int stopwatch_reset=0x7f080040;
+        public static final int stopwatch_start=0x7f08003e;
         /**  Setting labels on Set alarm screen: Set time  
          */
         public static final int time=0x7f080012;

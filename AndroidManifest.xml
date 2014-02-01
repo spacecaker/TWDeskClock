@@ -25,9 +25,7 @@
                 android:theme="@android:style/Theme.Black.NoTitleBar"
                 android:icon="@drawable/ic_launcher_alarmclock"
                 android:launchMode="singleInstance"
-                android:configChanges="orientation|keyboardHidden|keyboard|navigation">
-                >
-
+                android:configChanges="orientation|keyboardHidden|keyboard|navigation">		
             <!-- while docked, this is our home application -->
             <meta-data android:name="android.dock_home" android:value="true" />
 
@@ -39,6 +37,17 @@
             </intent-filter>
         </activity>
 
+		<activity
+            android:name="StopwatchActivity"
+            android:label="@string/stopwatch_activity"
+            android:icon="@drawable/ic_launcher_alarmclock"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
+        </activity>	
+                
         <activity android:name="AlarmClock"
                 android:label="@string/alarm_list_title"
                 android:taskAffinity=""
