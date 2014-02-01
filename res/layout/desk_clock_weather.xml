@@ -20,18 +20,18 @@
     android:orientation="vertical"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:gravity="left"
+    android:gravity="center"
     >
     <RelativeLayout android:id="@+id/weather_temp_icon_cluster"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:gravity="center"
         android:layout_marginBottom="-6dip"
         >
         <ImageView android:id="@+id/weather_icon"
             android:layout_height="60sp"
             android:layout_width="60sp"
-            android:gravity="left"
+            android:gravity="center"
             android:scaleType="centerInside"
             android:layout_marginRight="8dip"
             />

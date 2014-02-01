@@ -84,14 +84,13 @@
     </LinearLayout>
 
     <ImageView
-        android:src="@drawable/divider_vertical_dark"
-        android:background="?android:attr/windowBackground"
         android:layout_width="1.0dp"
-        android:layout_height="match_parent"
-        android:paddingTop="4dip"
-        android:paddingBottom="4dip"
-        android:scaleType="fitXY"
-        android:gravity="fill_vertical" />
+        android:layout_height="28.0dp"
+        android:background="?android:attr/windowBackground"
+        android:gravity="fill_vertical"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginBottom="20.0dip"
+        android:src="#ff9d9d9d" />
         
     <com.android.deskclock.DontPressWithParentLayout android:id="@+id/indicator"
         style="@style/alarm_list_left_column"

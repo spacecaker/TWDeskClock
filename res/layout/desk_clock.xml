@@ -50,23 +50,28 @@
             android:layout_marginBottom="14dip"
             >
 
+            <include layout="@layout/desk_clock_time_date"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
             <!-- across the top: next alarm, nightmode button -->
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
-                android:layout_marginLeft="4dip"
                 android:layout_marginBottom="6dip"
-                android:gravity="center_vertical"
+                android:gravity="center"
                 >
                 <TextView android:id="@+id/nextAlarm"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:gravity="left"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:drawablePadding="6dip"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium"                    
                     android:drawableLeft="@drawable/ic_lock_idle_alarm"
                     android:shadowColor="#C0000000"
                     android:shadowDx="0"
@@ -76,21 +81,14 @@
                 <ImageButton android:id="@+id/nightmode_button"
                     style="@style/RoundTouchButton"
                     android:layout_weight="0"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
+                    android:layout_height="0.0dp"
+                    android:layout_width="0.0dp"
                     android:src="@drawable/ic_round_brightness"
                     android:contentDescription="@string/nightmode_button_description"
                     android:nextFocusDown="@+id/alarm_button"
                     />
             </LinearLayout>
-
-            <include layout="@layout/desk_clock_time_date"
-                android:layout_weight="1"
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
-
+            
             <include layout="@layout/desk_clock_weather"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -98,7 +96,6 @@
                 android:layout_weight="0"
                 android:layout_marginTop="12dip"
                 android:layout_marginBottom="40dip"
-                android:layout_marginLeft="4dip"
                 />
 
             <include layout="@layout/desk_clock_battery"
